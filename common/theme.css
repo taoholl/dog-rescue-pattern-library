@@ -1,0 +1,72 @@
+:root {
+  --color-primary: #626d71;
+  --color-primary-light: #7D898C;
+  --color-secondary: #E5E5E5;
+  --color-accent: #B38867;
+  --color-neautral-beige: #DDBC95;
+
+  --font-primary: "Neucha", cursive;
+  --font-secondary: "Merriweather Sans", sans-serif;
+}
+html {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+}
+
+h1 {
+  color: var(--color-secondary);
+  font-family: var(--font-primary);
+}
+
+h2 {
+    color: var(--color-secondary);
+    font-family: var(--font-primary);
+}
+
+h3 {
+  color: var(--color-secondary);
+  font-family: var(--font-primary);
+}
+
+h4 {
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+  font-weight: bold;
+}
+
+h5 {
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+}
+
+h6 {
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+}
+a {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+a: hover {
+  color: var(--color-secondary);
+  border-bottom: 2px solid var(--color-primary-light);
+}
+
+blockquote {
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+}
+
+q {
+  color: var(--color-primary);
+  font-family: var(--font-primary);
+}
+
+em {
+  color: var(--color-primary);
+}
+
+strong {
+  color: var(--color-primary);
+}
