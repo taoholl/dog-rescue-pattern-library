@@ -72,3 +72,7 @@ em {
 strong {
   color: var(--color-primary);
 }
+
+mark {
+  background-color: var(--color-neautral-beige);
+}
