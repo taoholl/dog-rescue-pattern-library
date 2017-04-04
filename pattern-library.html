@@ -55,6 +55,7 @@
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#footer">Footer</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#forms-fields">Forms fields</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#hero-banner">Hero banner</a></li>
+                <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#masthead">Masthead</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#nav">Nav</a></li>
           </ul>
         </nav>
@@ -1258,7 +1259,7 @@ the basic card is only for information, it may include a button but does not hav
 
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
-              <code><pre>&lt;form class="max-length island" method="post" novalidate=""&gt;
+              <code><pre>&lt;form class="max-length island" novalidate=""&gt;
   &lt;div class="drop-down push-1-2">
     &lt;label class="push-1-8">Gender&lt;/label>
     &lt;select id="subject">
@@ -1308,7 +1309,7 @@ the basic card is only for information, it may include a button but does not hav
 
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
-              <code><pre>&lt;form class="max-length island" method="post" novalidate=""&gt;
+              <code><pre>&lt;form class="max-length island" novalidate=""&gt;
   &lt;div class="email push-1-2">
     &lt;label for="email" class="push-1-8"> Primary Email address&lt;/label>
     &lt;input id="email" required aria-describedby="email-error" placeholder="me@me.com">
@@ -1357,7 +1358,7 @@ the basic card is only for information, it may include a button but does not hav
 
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
-              <code><pre>&lt;form class="max-length island" method="post" novalidate=""&gt;
+              <code><pre>&lt;form class="max-length island" novalidate=""&gt;
   &lt;div class="fill-field push-1-2">
     &lt;label for="first-name">First Name&lt;/label>
     &lt;input id="first-name" required aria-describedby="name-error">
@@ -1366,7 +1367,10 @@ the basic card is only for information, it may include a button but does not hav
       &lt;span class="icon-label">Please provide your first name&lt;/span>
     &lt;/p>
   &lt;/div>
-
+  &lt;div>
+    &lt;a &lt;="" form="">
+    &lt;/a>
+  &lt;/div>
 &lt;/form>
 </pre></code>
             </div>
@@ -1406,7 +1410,7 @@ the basic card is only for information, it may include a button but does not hav
 
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
-              <code><pre>&lt;form class="max-length island" method="post" novalidate=""&gt;
+              <code><pre>&lt;form class="max-length island" novalidate=""&gt;
   &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
     &lt;h1 class="push-o">
       &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="../../images/icons.svg#error"/>&lt;/svg>&lt;/i>
@@ -1452,7 +1456,7 @@ the basic card is only for information, it may include a button but does not hav
 
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
-              <code><pre>&lt;form class="max-length island" method="post" novalidate=""&gt;
+              <code><pre>&lt;form class="max-length island" novalidate=""&gt;
   &lt;div class="large-fill">
     &lt;label for="allergies">Please name Allergies&lt;/label>
     &lt;textarea id="allergies">&lt;/textarea>
@@ -1511,19 +1515,91 @@ the basic card is only for information, it may include a button but does not hav
         <section class="pattern" id="hero-banner">
   <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative">
     <h2 class="pattern-name peta push-1-4">Hero banner</h2>
-        <div class="gutter absolute pin-cr">
-          <a class="pattern-pop" href="patterns/hero-banner/hero-banner-main.html" target="_blank" title="Open pattern in a new tab">
-            <i class="icon i-18">
-              <svg><use xlink:href="#pop-out" /></svg>
-            </i>
-          </a>
-        </div>
+      <nav class="pattern-nav">
+        <ol class="list-group-inline push-1-4">
+            <li><a href="#hero-banner-about">About</a></li>
+            <li><a href="#hero-banner-hero-banner-main">Hero banner main</a></li>
+        </ol>
+      </nav>
   </div>
 
 
   
 
+    <div class="pattern-details" id="hero-banner-about">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
+          <h3 class="pattern-name tera push-1-8">About</h3>
+            <div class="gutter absolute pin-cr">
+              <a class="pattern-pop" href="patterns/hero-banner/about.html" target="_blank" title="Open pattern in a new tab">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#pop-out" /></svg>
+                </i>
+              </a>
+            </div>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
+          <div class="resizeable-pattern relative" style="">
+            <iframe src="patterns/hero-banner/about.html" scrolling="no" onload="resizeIframe(this)"></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;main role="main" id="main"&gt;
+  &lt;div class=" about-banner grid grid-middle about push">
+    &lt;div class=" unit text-center island-2 xs-1 s-1 m-1-2 l-1-2">
+      &lt;div class="icon i-256 pencil-dog">
+        &lt;img src="../../images/pencil-dog.svg" alt="">
+      &lt;/div>
+    &lt;/div>
+    &lt;div class=" unit pad-t-2 xs-1 s-1 m-1-2 l-1-2">
+      &lt;h2 class="info text-center zetta center-block w-1-2"> About &lt;/h2>
+      &lt;div class="about-content pad-t-2 pad-b-2">
+        &lt;div class="gutter-1-4">
+          &lt;section id="about">
+            &lt;h2>Check out our blog&lt;/h2>
+          &lt;/section>
+          &lt;p class="mega push max-length">Updated frequently, this blog includes news on rescue-related events, adoptions, incoming dogs and much more!&lt;/p>
+          &lt;div class="push">
+            &lt;a class="btn btn-light" href="#">Visit Blog Now&lt;/a>
+          &lt;/div>
+          &lt;h2> About Loyal Rescue Inc&lt;/h2>
+          &lt;p class="mega push max-length">Private, registered, non profit, foster-based dog rescue with foster home across Ontario. We help any dog in need that we can, regardless of breed, age, medical doncition or birth place. Our mission is to find homes for dogs that find themselves homeless, either through abuse, neglect, abandonment, or being born in a puppy mill. We feel a responsibility towards these unfortunate animals, and work to find new permanent, loving, forever families for them.&lt;/p>
+        &lt;/div>
+      &lt;/div>
+    &lt;/div>
+  &lt;/div>
+&lt;/main>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
     <div class="pattern-details" id="hero-banner-hero-banner-main">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
+          <h3 class="pattern-name tera push-1-8">Hero banner main</h3>
+            <div class="gutter absolute pin-cr">
+              <a class="pattern-pop" href="patterns/hero-banner/hero-banner-main.html" target="_blank" title="Open pattern in a new tab">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#pop-out" /></svg>
+                </i>
+              </a>
+            </div>
+        </div>
 
       <div class="pattern-examples pad-t-1-2 pad-b">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
@@ -1564,6 +1640,59 @@ the basic card is only for information, it may include a button but does not hav
     &lt;/div>
   &lt;/div>
 &lt;/main>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="masthead">
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative">
+    <h2 class="pattern-name peta push-1-4">Masthead</h2>
+        <div class="gutter absolute pin-cr">
+          <a class="pattern-pop" href="patterns/masthead/masthead.html" target="_blank" title="Open pattern in a new tab">
+            <i class="icon i-18">
+              <svg><use xlink:href="#pop-out" /></svg>
+            </i>
+          </a>
+        </div>
+  </div>
+
+
+  
+
+    <div class="pattern-details" id="masthead-masthead">
+
+      <div class="pattern-examples pad-t-1-2 pad-b">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
+          <div class="resizeable-pattern relative" style="">
+            <iframe src="patterns/masthead/masthead.html" scrolling="no" onload="resizeIframe(this)"></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;header role="banner"&gt;
+  &lt;div class="masthead">
+    &lt;div class=" pad-t-1-2 pad-b-1-2 gutter-1-2">
+      &lt;i class="icon i-192 logo">&lt;svg>&lt;use xlink:href="../../images/icons.svg#loyal-logo-color"/>&lt;/svg>&lt;/i>
+    &lt;/div>
+  &lt;/div>
+&lt;/header>
 </pre></code>
             </div>
           </div>
