@@ -1,0 +1,48 @@
+html {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+textarea {
+  color: var(--color-primary);
+}
+
+select {
+  color: var(--color-primary);
+}
+
+input {
+  color: var(--color-primary);
+}
+
+.allergies {
+  height: 25px;
+}
+
+.flag-optional {
+  color: #721825;
+}
+
+.is-validated input:invalid,
+.is-validated input[type="checkbox"]:invalid + label::before {
+  border-color: #8e1e35;
+  border-radius: 6px;
+}
+
+.error-message {
+  display: none;
+  color: #8e1e35;
+  background-color: var(--color-secondary);
+  border-radius: 6px;
+}
+
+.error-message-highlighted {
+  background-color: #721825;
+  color: #fff;
+}
+
+.is-validated > .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated input:invalid + label + .error-message {
+  display: block;
+}

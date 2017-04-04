@@ -1,0 +1,104 @@
+
+.nav a {
+  display: inline-block;
+  padding: .5rem .75rem;
+
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav {
+  position: relative;
+  background-color: var(--color-primary);
+  z-index: 2;
+}
+
+.nav a:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  border-radius: 8px;
+  border-width: medium;
+  border-color: var(--color-secondary);
+  box-shadow: 1px 1px 3px #000;
+  transform: scale(1.1);
+  transition: all 300ms linear;
+}
+
+.nav a:focus {
+  outline: 3px solid #000;
+}
+
+.bottom-nav {
+  background-color: var(--color-secondary);
+}
+.bottom-nav a {
+  display: inline-block;
+  padding: .5rem .75rem;
+
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.bottom-nav a {
+  position: relative;
+  background-color:  var(--color-secondary);
+  z-index: 2;
+}
+
+.bottom-nav a:hover {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  border-radius: 8px;
+  border-width: medium;
+  border-color: var(--color-primary);
+  box-shadow: 1px 1px 3px #000;
+  transform: scale(1.1);
+  transition: all 300ms linear;
+}
+
+.circle {
+  border-radius: 50%;
+  border: var(--color-primary-light) 15px solid;
+  box-sizing: content-box;
+  background-color: var(--color-primary);
+  position: relative;
+  z-index: 100;
+}
+
+.current .circle {
+  border-color: #cdd2d3;
+}
+
+.application-nav {
+  position: relative;
+  background-color: var(--color-primary);
+  z-index: 2;
+}
+.application-nav a {
+  display: block;
+  padding: .5rem .75rem;
+  color: #fff;
+  text-decoration: none;
+}
+.application-nav li {
+  width: 10em;
+  position: relative;
+}
+
+.application-nav li::before, .application-nav li::after {
+  content: "";
+  position: absolute;
+  border-top: 20px solid var(--color-primary-light);
+  width: 60%;
+  left: 50%;
+  top: 39px;
+}
+
+.application-nav li::after {
+  left: auto;
+  right: 50%;
+}
+
+.application-nav li:first-child::after,.application-nav li:last-child::before {
+display: none;
+}

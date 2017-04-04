@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>email</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../../common/modules.css" rel="stylesheet">
+  <link href="../../common/grid.css" rel="stylesheet">
+  <link href="../../common/type.css" rel="stylesheet">
+  <link href="../../common/theme.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700|Neucha" rel="stylesheet">
+  <link href="forms.css" rel="stylesheet">
+</head>
+<body>
+
+  <form class="max-length island" method="post" novalidate>
+    <div class="email push-1-2">
+      <label for="email" class="push-1-8"> Primary Email address</label>
+      <input id="email" required aria-describedby="email-error" placeholder="me@me.com">
+      <p class="error-message milli island-1-2 push-0" id="email-error">
+        <i class="icon i-32"><svg><use xlink:href="../../images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please provide your email</span>
+      </p>
+    </div>
+
+  </form>
+  <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
+
+</body>
+</html>

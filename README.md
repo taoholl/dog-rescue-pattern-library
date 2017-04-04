@@ -14,4 +14,5 @@ colors:
     The secondary color is a light grey that balances the slate.
   accent:
     The accent color is coffee that adds as the pop of color on the website.
+  backgroundColor: C1C1C1.
 ---
