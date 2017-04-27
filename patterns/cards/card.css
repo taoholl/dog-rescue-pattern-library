@@ -1,6 +1,7 @@
 .card-section {
   background-color: var(--color-primary);
 }
+
 .image-cards {
   background-color: var(--color-primary);
 }
@@ -9,6 +10,7 @@
   padding-left: .2em;
   padding-right: .2em;
 }
+
 .card {
   border: 4px solid var(--color-primary);
   border-radius: 8px;
@@ -40,20 +42,7 @@ p {
 
 #arm {
 
-  transition: all .5s linear
-}
-
-@keyframes side {
-
-  from {
-
-    transform: translate(-20px);
-  }
-
-  to {
-    transform: translate(-30px);
-  }
-
+  transition: all .5s linear;
 }
 
 .card:hover #arm {
@@ -62,45 +51,16 @@ p {
 
 #check-mark {
 
-  transition: all .5s linear
-}
-
-@keyframes side {
-
-  from {
-
-    transform: translate(-20px);
-  }
-
-  to {
-    transform: translate(-20px);
-  }
-
+  transition: all .5s linear;
 }
 
 .card:hover #check-mark {
   transform: scale(1.1);
 }
-.card:hover #arm {
-  transform: rotate(-3deg);
-}
 
 #head {
 
-  transition: all .5s linear
-}
-
-@keyframes side {
-
-  from {
-
-    transform: translate(-20px);
-  }
-
-  to {
-    transform: translate(-20px);
-  }
-
+  transition: all .5s linear;
 }
 
 .card:hover #head {
@@ -109,39 +69,11 @@ p {
 
 #dog-head {
 
-  transition: all .5s linear
-}
-
-@keyframes side {
-
-  from {
-
-    transform: translate(-20px);
-  }
-
-  to {
-    transform: translate(-20px);
-  }
-
-}
-
-.card:hover #head {
-  transform: rotate(-5deg);
+  transition: all .5s linear;
 }
 
 #girl-head2 {
-  transition: all .5s linear
-}
-
-@keyframes side {
-
-  from {
-    transform: translate(-20px);
-  }
-
-  to {
-    transform: translate(-20px);
-  }
+  transition: all .5s linear;
 }
 
 .card:hover #girl-head2 {
