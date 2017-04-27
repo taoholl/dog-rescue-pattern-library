@@ -1,5 +1,11 @@
+.card-section {
+  background-color: var(--color-primary);
+}
+.image-cards {
+  background-color: var(--color-primary);
+}
 
-h2 {
+.header {
   padding-left: .2em;
   padding-right: .2em;
 }

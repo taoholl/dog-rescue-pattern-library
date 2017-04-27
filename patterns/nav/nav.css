@@ -1,9 +1,23 @@
+.logo-link a:hover {
+  background-color: var(--color-primary);
+  border: 0;
+}
+
+.logo-link a {
+  display: inline-block;
+  color: var(--color-primary);
+}
+
+.main-nav {
+  border-right: 5px var(--color-secondary) solid;
+  border-radius: 10px;
+}
 
 .nav a {
   display: inline-block;
   padding: .5rem .75rem;
 
-  color: #fff;
+  color: var(--color-secondary);
   text-decoration: none;
 }
 
@@ -18,10 +32,11 @@
   color: var(--color-primary);
   border-radius: 8px;
   border-width: medium;
-  border-color: var(--color-secondary);
+  border-color: var(--color-primary);
   box-shadow: 1px 1px 3px #000;
   transform: scale(1.1);
   transition: all 300ms linear;
+  border: 0;
 }
 
 .nav a:focus {
@@ -54,6 +69,7 @@
   box-shadow: 1px 1px 3px #000;
   transform: scale(1.1);
   transition: all 300ms linear;
+  border: 0;
 }
 
 .circle {

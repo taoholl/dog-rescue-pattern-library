@@ -2,17 +2,80 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Icon card</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="../../common/modules.css" rel="stylesheet">
-  <link href="../../common/grid.css" rel="stylesheet">
-  <link href="../../common/type.css" rel="stylesheet">
-  <link href="../../common/theme.css" rel="stylesheet">
+  <title>Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="../common/modules.css" rel="stylesheet">
+  <link href="../common/grid.css" rel="stylesheet">
+  <link href="../common/type.css" rel="stylesheet">
+  <link href="../common/theme.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700|Neucha" rel="stylesheet">
-  <link href="card.css" rel="stylesheet">
+  <link href="../patterns/cards/card.css" rel="stylesheet">
+    <link href="../patterns/masthead/masthead.css" rel="stylesheet">
+    <link href="../patterns/nav/nav.css" rel="stylesheet">
+    <link href="../patterns/hero-banner/hero-banner.css" rel="stylesheet">
+    <link href="../patterns/footer/footer.css" rel="stylesheet">
 </head>
 <body>
+</head>
+<body>
+
+  <header role="banner">
+    <div class="masthead grid grid-middle">
+      <div class=" logo-link unit xs-1 s-1 m-1-4 l-1-4 pad-t-1-2 pad-b-1-2 gutter-1-2 text-center">
+        <a href="#home">
+        <i class="icon i-192 logo"><svg><use xlink:href="../../images/icons.svg#logo-reverse" /></svg></i>
+      </a>
+      </div>
+
+      <div class="main-nav unit xs-1 s-1 m-1-4 l-1-4">
+        <div class="nav">
+          <div class="wrapper">
+            <nav role="navigation" id="nav">
+              <ol class="mega push-0 navigation list-group">
+                <li><a href="#adoptees">Adoptees</a></li>
+                <li><a href="#happy-tails">Happy Tails</a></li>
+                <li><a href="#application">Application</a></li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-4 l-1-4 second">
+        <div class="nav">
+          <div class="wrapper gutter-1-2">
+            <nav role="navigation" id="nav">
+              <ol class="mega push-0 navigation list-group">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+  </header>
+
+  <section role="main" id="main">
+      <div class="featured">
+        <div class="embed embed-24by10">
+          <img class="embed-item" src="../../images/wally-hero-banner.jpg" alt="">
+        </div>
+        <div class="featured-content island-2 pad-t-2 pad-b-2">
+          <div class= "island-2">
+            <section id="happy-tail">
+              <p class="push-0 bold yotta">Featured Happy Tail!</p>
+            </section>
+            <h2 class="yotta bold push-1-2">Wally the Boxer !</h2>
+              <div class="push-1">
+                <a class="btn push-0" href="#">Learn More!</a>
+              </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
   <div class="grid island-2 card-section">
 
     <div class="unit xs-1 s-1 m-1-4 l-1-4 card-1 card text-center">
@@ -247,7 +310,7 @@
 
       </i>
       <h2 class="info push-1-4">Step Two: Apply</h2>
-      <p class="push-0">Fill out our application! The application is very detailed to ensure that each adoptee gets their own forever home, so please set aside an hour to complete the application. If accepted we will call you to set up a meeting with your potential pet!</p>
+      <p class="push-0">Fill out our application! The application is very thougroh to ensure that each adoptee gets their own forever home, so please set aside an hour to complete the application. If accepted we will call you to set up a meeting with your potential pet!</p>
     </div>
 
     <div class="unit xs-1 s-1 m-1-4 l-1-4 card-3 card text-center">
@@ -283,6 +346,7 @@
       <h2 class=" info push-1-4">Step Three: Meeting</h2>
       <p class="push-0">Loyal Resucue does not have dogs on site but instead each adoptee is paired with a foster parent who will set a meeting. There is no need to rush the decision, this is a time to see if you both are compatiable.</p>
     </div>
+
 
     <div class="unit xs-1 s-1 m-1-4 l-1-4 card-4 card text-center">
       <i class="icon i-256 push-1-2">
@@ -328,5 +392,117 @@
       <p class="push-0">Now that you have found your new family member, it's time to bring them to their new forever home! We care so much about every dog we help and would love it if you update us on your dogs new life and we will make their very own happy tail!</p>
     </div>
   </div>
+</grid>
+
+<section role="about" id="about">
+    <div class=" about-banner grid grid-middle about">
+      <div class=" unit text-center xs-1 s-1 m-1-2 l-1-2">
+        <div class="icon pencil-dog">
+          <img src="../../images/pencil-dog.svg" alt="">
+      </div>
+      </div>
+      <div class=" unit pad-t-2 xs-1 s-1 m-1-3 l-1-3">
+        <h2 class="about-header text-center zetta center-block w-1-2"> About </h2>
+      <div class="about-content pad-t-2 pad-b-2">
+        <div class="gutter-1-4">
+          <section id="about">
+            <h2 class="zetta">Check out our blog</h2>
+          </section>
+          <p class="mega push max-length">Updated frequently, this blog includes news on rescue-related events, adoptions, incoming dogs and much more!</p>
+          <div class="push-2">
+              <a class="btn btn-light" href="#">Visit Blog Now</a>
+          </div>
+          <h2 class="zetta"> About Loyal Rescue Inc</h2>
+          <p class="mega push max-length">Private, registered, non profit, foster-based dog rescue with foster home across Ontario. We help any dog in need that we can, regardless of breed, age, medical doncition or birth place. Our mission is to find homes for dogs that find themselves homeless, either through abuse, neglect, abandonment, or being born in a puppy mill. We feel a responsibility towards these unfortunate animals, and work to find new permanent, loving, forever families for them.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section role="featured-pets" id="featured-pets">
+    <div class=" featured-pets about">
+      <div class="pad-t-2 featured-wrapper">
+        <h2 class="info text-center zetta center-block w-1-2"> Featured Pets! </h2>
+      <div class=" pad-t-2 pad-b-2">
+        <div class="gutter-1-2">
+          <div class=" island pad-left-2 ">
+          <section class="image-cards" id="featured-pets">
+              <div class="selection">
+                <ul class="grid list-group">
+                  <li class="unit card [ xs-1 s-1 m-1-2 l-1-4 ]">
+                    <img class="img-flex push" src="../../images/george.jpg" alt="" aria-describedat="#glass-candy">
+                    <div class="gutter-1-4 push" id="crunchy-glass-candy">
+                      <h2 class="info peta push-1 bold subheader text-center color-brand-light">George</h2>
+                      <span class="imagecard">George is stubbern when it comes to most things. He uses his weight to get what he wants which is very comical. However, with some dedication and strong will, this pudgy prince will be eating out of the palm of your hand.</span>
+                    </div>
+                  </li>
+
+                  <li class="unit card [ xs-1 s-1 m-1-2 l-1-4 ]">
+                    <img class="img-flex push" src="../../images/sushi.jpg" alt="" aria-describedat="#chewy-gum">
+                    <div class="gutter-1-4 push" id="chewy-gum-pops">
+                      <h2 class="info peta push-1 bold subheader color-brand-light text-center">Sushi</h2>
+                      <span class="imagecard"> Sushi loves to bask in sun beams and chase her favourite ball. This sweet loveable girl spends most of her days trying to win your heart, which she does successfully.</span>
+                    </div>
+                  </li>
+
+                  <li class="unit card [ xs-1 s-1 m-1-2 l-1-4 ]">
+                    <img class="img-flex push" src="../../images/bilbo.jpg" alt="" aria-describedat="#chewy-gum">
+                    <div class="gutter-1-4 push" id="chewy-gum-pops">
+                      <h2 class="info peta push-1 bold subheader color-brand-light text-center">Bilbo Waggins</h2>
+                      <span class="imagecard"> Bilbo is a free spirit, constantly looking for adventure. He is however, a little posessive over his precious toys.</span>
+                    </div>
+                  </li>
+
+                  <li class="unit card [ xs-1 s-1 m-1-2 l-1-4 ]">
+                    <img class="img-flex push" src="../../images/barkley.jpg" alt="" aria-describedat="#chewy-gum">
+                    <div class="gutter-1-4 push" id="chewy-gum-pops">
+                      <h2 class="info peta push-1 bold subheader color-brand-light text-center">Bilbo Waggins</h2>
+                      <span class="imagecard"> Bilbo is a free spirit, constantly looking for adventure. He is however, a little posessive over his precious toys.</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+    <div class="bottom-nav psuh-2">
+      <div class="wrapper gutter-1-2">
+        <nav role="navigation" id="nav">
+          <ol class="mega list-group-inline push-0 navigation">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#adoptees">Adoptees</a></li>
+            <li><a href="#happy-tails">Happy Tails</a></li>
+            <li><a href="#application">Application</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section>
+      <footer role="contentinfo">
+      <div class="footer text-center island-2 pad-t-1-2 pad-b-1-2">
+        <div class="wrapper gutter-1-2">
+          <p class="push-2 micro">LOYAL Resucue Inc.© 2005-2014.</p>
+        </div>
+      </div>
+    </footer>
+  </section>
+
+</body>
+</html>
+
+
+
+
 </body>
 </html>

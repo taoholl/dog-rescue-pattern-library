@@ -1,3 +1,39 @@
+.happy-tails{
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+
+}
+.quote {
+    background-color: var(--color-primary);
+}
+.featured-wrapper {
+  max-width: 70em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.featured-pets {
+  background-color: var(--color-primary);
+}
+
+.about-header {
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+  background-image: url("../../images/about-header-left.svg"), url("../../images/about-header-right.svg");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: left top, right top;
+}
+
+.super-dog {
+  width: 200px;
+  height: 400px;
+}
+
+.pencil-dog {
+  width: 500px;
+  height: 500px;
+}
+
 .featured {
   position: relative;
 }
@@ -7,6 +43,9 @@
   background-color: #313435;
 }
 
+.about-banner {
+  background-color: var(--color-primary-light);
+}
 .max-length {
   margin-left: 0;
   margin-right: 0;
