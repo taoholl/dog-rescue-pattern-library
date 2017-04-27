@@ -12,4 +12,4 @@ quote-banner: |
 quote-banners are showcased on the Happytail page. They are quotes from the people who adopted the dog they are showcasing. The quotes are to be surrounded by the "super-dog" icon. There will be a new Happytail banner every month.
 
 Featured-pets: |
-feature pets showcases adoptable dogs on the sight. They are links and will link the user directly to the adoptees page. 
+feature pets showcases adoptable dogs on the sight. They are links and will link the user directly to the adoptees page.
