@@ -46,18 +46,15 @@
 .bottom-nav {
   background-color: var(--color-secondary);
 }
+
 .bottom-nav a {
   display: inline-block;
-  padding: .5rem .75rem;
-
-  color: var(--color-primary);
-  text-decoration: none;
-}
-
-.bottom-nav a {
   position: relative;
-  background-color:  var(--color-secondary);
   z-index: 2;
+  padding: .5rem .75rem;
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+  text-decoration: none;
 }
 
 .bottom-nav a:hover {
@@ -90,12 +87,14 @@
   background-color: var(--color-primary);
   z-index: 2;
 }
+
 .application-nav a {
   display: block;
   padding: .5rem .75rem;
   color: #fff;
   text-decoration: none;
 }
+
 .application-nav li {
   width: 10em;
   position: relative;
@@ -115,6 +114,6 @@
   right: 50%;
 }
 
-.application-nav li:first-child::after,.application-nav li:last-child::before {
-display: none;
+.application-nav li:first-child::after, .application-nav li:last-child::before {
+  display: none;
 }

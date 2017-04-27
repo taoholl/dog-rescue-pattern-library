@@ -1,16 +1,19 @@
-.happy-tails{
+.happy-tails {
   background-color: var(--color-primary);
   color: var(--color-secondary);
 
 }
+
 .quote {
-    background-color: var(--color-primary);
+  background-color: var(--color-primary);
 }
+
 .featured-wrapper {
   max-width: 70em;
   margin-left: auto;
   margin-right: auto;
 }
+
 .featured-pets {
   background-color: var(--color-primary);
 }
@@ -46,6 +49,7 @@
 .about-banner {
   background-color: var(--color-primary-light);
 }
+
 .max-length {
   margin-left: 0;
   margin-right: 0;

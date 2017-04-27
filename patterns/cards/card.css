@@ -133,17 +133,15 @@ p {
   transition: all .5s linear
 }
 
-keyframes side {
+@keyframes side {
 
   from {
-
     transform: translate(-20px);
   }
 
   to {
     transform: translate(-20px);
   }
-
 }
 
 .card:hover #girl-head2 {
